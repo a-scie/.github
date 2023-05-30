@@ -10,11 +10,14 @@ arguments and the manifest contained in the scie to determine which commands to 
 they need. The `scie-jump` then extracts the required files if needed and executes the required
 commands.
 
-You likely want to get started with `science`, the high-level tool for building scies:
+You likely want to get started with `science`, the high-level tool for building scies that is
+itself a scie built using `science`:
 * Documentation: https://science.scie.app/
 * Code: https://github.com/a-scie/lift
 
-You can use the `scie-jump` directly to build scies, but it's more low-level than science:
+You can use the `scie-jump` directly to build scies, but it's more low-level than `science`. The
+core environment variables and placeholders that power scie commands are all defined and implemented
+by the `scie-jump` though; so its good to become familiar with these in its packaging docs:
 * Documentation: https://github.com/a-scie/jump/blob/main/docs/packaging.md
 * Code: https://github.com/a-scie/jump
 
