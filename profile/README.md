@@ -22,7 +22,7 @@ by the `scie-jump` though; so its good to become familiar with these in its pack
 * Code: https://github.com/a-scie/jump
 
 Scies have the ability to be shipped "gouged-out". One or more files can be defined in the manifest
-that are fetched on-demand and verified against a checksum. The `ptex` binary does this fetching and
-fills the gouged-put scie back in:
+that are not included in the scie but are instead fetched on-demand and verified against a checksum.
+The `ptex` binary does this fetching and fills the gouged-put scie back in:
 * Code: https://github.com/a-scie/ptex
 
