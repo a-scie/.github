@@ -26,3 +26,6 @@ that are not included in the scie but are instead fetched on-demand and verified
 The `ptex` binary does this fetching and fills the gouged-put scie back in:
 * Code: https://github.com/a-scie/ptex
 
+If you have more questions about using or packaging scies, feel free to drop in to our discord
+server at https://scie.app/discord.
+
