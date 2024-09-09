@@ -4,7 +4,7 @@ The Science projects help you package your interpreted applications as native ex
 
 These native executables are called scies (pronounced "skis") and generally include both a native
 interpreter and your interpreted application code. Scies are built using a manifest you write that
-describes the files to include n the scie as well as the commands to run when executing the scie.
+describes the files to include in the scie as well as the commands to run when executing the scie.
 Scies boot with the `scie-jump` native executable which inspects the environment, the command line
 arguments and the manifest contained in the scie to determine which commands to run and which files
 they need. The `scie-jump` then extracts the required files if needed and executes the required
@@ -23,7 +23,7 @@ by the `scie-jump` though; so its good to become familiar with these in its pack
 
 Scies have the ability to be shipped "gouged-out". One or more files can be defined in the manifest
 that are not included in the scie but are instead fetched on-demand and verified against a checksum.
-The `ptex` binary does this fetching and fills the gouged-put scie back in:
+The `ptex` binary does this fetching and fills the gouged-out scie back in:
 * Code: https://github.com/a-scie/ptex
 
 If you have more questions about using or packaging scies, feel free to drop in to our discord
